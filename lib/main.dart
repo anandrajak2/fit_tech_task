@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:task_project_16/screens/bluetooth_module.dart';
 import 'package:task_project_16/screens/dog_image_screen.dart';
 import 'package:task_project_16/screens/show_profile.dart';
+import 'package:task_project_16/screens/text_recognizetion_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -78,6 +79,16 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: const Text('Show Dogs'),
             ),
+           /*  ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            const TextRecolonizationScreen()));
+              },
+              child: const Text('Show OCR'),
+            ), */
           ],
         ),
       ),
